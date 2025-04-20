@@ -11,6 +11,7 @@ import sys
 from datetime import datetime
 import telebot
 from telebot import types
+from keys import Keys
 
 # Настройка логирования
 logging.basicConfig(
@@ -21,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Константы
-TOKEN = '8059900290:AAGxpc6yfurSNr1JaiYWsvF0L74q-L5Zlls'
+TOKEN = Keys.TOKEN
 MAX_FILE_SIZE = 50 * 1024 * 1024
 
 # Инициализация бота
