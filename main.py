@@ -54,8 +54,8 @@ except Error as e:
     db_pool = None
 
 # Базовая директория для изображений и документов
-IMAGE_DIR = r'C:\Users\User\Desktop\bot\image'
-DOC_DIR = r'C:\Users\User\Desktop\bot\docs'
+IMAGE_DIR = r'C:\Users\User\Desktop\telegram_bot_for_applicants\image'
+DOC_DIR = r'C:\Users\User\Desktop\telegram_bot_for_applicants\docs'
 
 # Пути к картинкам и документам
 IMAGES = {
@@ -1377,7 +1377,7 @@ class MainWindow(QMainWindow):
             }
         """)
         self.setWindowFlags(Qt.Window | Qt.WindowMinimizeButtonHint | Qt.WindowCloseButtonHint)
-        icon_path = r"C:\Users\User\Desktop\bot\image\icon.jpg"
+        icon_path = r"C:\Users\User\Desktop\telegram_bot_for_applicants\image\icon.jpg"
         self.setWindowIcon(QIcon(icon_path))
         screen = QApplication.desktop().screenGeometry()
         x = (screen.width() - self.width()) // 2
