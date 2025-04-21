@@ -1,5 +1,4 @@
 import os
-import mysql.connector
 from mysql.connector import Error
 from mysql.connector.pooling import MySQLConnectionPool
 import logging
